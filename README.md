@@ -27,21 +27,21 @@ Data Augmentation: Keras ImageDataGenerator
 
 **📖 How It Works**
 
-1.Data Preprocessing:
+1. Data Preprocessing:
 Rescales pixel values to [0,1].
 Applies augmentations like rotation, shift, zoom, and flips to improve model robustness.
 
-2.Model Architecture:
+2. Model Architecture:
 3 Convolutional layers with ReLU activation.
 MaxPooling for feature reduction.
 Dropout for regularization.
 Fully connected dense layers for classification.
 
-3.Training and Evaluation:
+3. Training and Evaluation:
 Trains on augmented data for up to 30 epochs with early stopping.
 Evaluates using accuracy and loss on test data.
 
-4.Visualization:
+4. Visualization:
 Confusion matrix and classification report for detailed performance metrics.
 
 **📈 Results**
